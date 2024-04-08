@@ -6,9 +6,10 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="SMTPSockets" />
+        <module name="SMTPApache" />
         <module name="Cliente-FTP" />
         <module name="Ejemplos_URL" />
-        <module name="SMTPSockets" />
       </profile>
     </annotationProcessing>
   </component>

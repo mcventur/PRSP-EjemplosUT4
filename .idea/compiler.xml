@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="Cliente-FTP" />
         <module name="Ejemplos_URL" />
+        <module name="SMTPSockets" />
       </profile>
     </annotationProcessing>
   </component>

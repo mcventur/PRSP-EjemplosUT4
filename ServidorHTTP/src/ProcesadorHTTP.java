@@ -70,7 +70,7 @@ public class ProcesadorHTTP extends Thread {
                         "<body><h1>Página principal</h1><p>Servidor funciona correctamente</p></body></html>";
                 cabeceraRespuesta = "HTTP/1.1 200 OK\n" +
                         "Content-Type:text/html;charset=UTF-8\n" +
-                        "Content-Length: " + (respuestaHtml.length()) + "\n";
+                        "Content-Length: " + (respuestaHtml.length() + 2) + "\n";
                 flujoSalida.println(cabeceraRespuesta);
                 flujoSalida.println(respuestaHtml);
                 break;
